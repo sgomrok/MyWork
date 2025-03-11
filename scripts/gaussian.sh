@@ -1,8 +1,8 @@
 #!/bin/bash 
-#SBATCH --cpus-per-task=16
+#SBATCH --cpus-per-task=10
 #SBATCH --time=240:00:00
 #SBATCH --partition=icomputeq
-#SBATCH --mem-per-cpu=10GB
+#SBATCH --mem-per-cpu=12GB
 
 mkdir /scratch/$USER/$SLURM_JOB_ID
 export TMPDIR=/scratch/$USER/$SLURM_JOB_ID
