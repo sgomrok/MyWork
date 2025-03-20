@@ -20,8 +20,8 @@ def find_template_pdb(max_levels=3):
 
 
 directories = [
-    '.',
     'irc1',
+    '.',
     'irc2'
 ]
 
